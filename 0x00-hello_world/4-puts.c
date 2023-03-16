@@ -8,9 +8,10 @@
 
 int main(void)
 {
-	char str[] = {"Programming is like building a multilingual puzzle"};
+	char str[] = "Programming is like building a multilingual puzzle";
 
-	puts("str\n");
+	puts(str);
+	puts("\n");
 
 return (0);
 }
