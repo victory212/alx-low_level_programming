@@ -4,7 +4,6 @@
 /**
  * print_to_98 - print natual numbers till 98 from n
  * @n: range of numbers
- * Return: 0
  */
 
 void print_to_98(int n)
