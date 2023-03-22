@@ -2,12 +2,11 @@
 #include "main.h"
 
 /**
- * main - Print putchar, char c
+ * main - Print putchar,
  *
  * Return: o
  */
 
-int _putchar(char c);
 int main(void)
 {
 	putchar('_');
