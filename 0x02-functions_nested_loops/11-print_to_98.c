@@ -8,11 +8,14 @@
 
 void print_to_98(int n)
 {
-	int a;
-
-	for (a = n; n < 98; n++)
+	if (n > 98)
 	{
-		printf("%i, ", a);
+		while (n > 98)
+			printf("%i ,", n--);
 	}
-	printf("\n");
+	else
+	{
+		while (n < 98)
+			printf("%i ,", n++);
+	}
 }
