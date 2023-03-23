@@ -8,10 +8,11 @@
 void print_numbers(void)
 {
 	int i;
+	char dig[] = "01234567890";
 
 	for (i = 0; i < 9; i++)
 	{
-		_putchar(i);
+		_putchar(dig[i]);
 	}
 	_putchar('\n');
 }
