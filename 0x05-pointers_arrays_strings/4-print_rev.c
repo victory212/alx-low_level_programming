@@ -8,6 +8,8 @@
 
 void print_rev(char *s)
 {
+	/* num acts as a counter */
+
 	int num = 0;
 	int i;
 
@@ -17,6 +19,9 @@ void print_rev(char *s)
 		s++;
 	}
 	s--;
+
+	/* the loop can be interpreted as saying i starts at the counter */
+
 	for (i = num; i > 0; i--)
 	{
 		_putchar(*s);
